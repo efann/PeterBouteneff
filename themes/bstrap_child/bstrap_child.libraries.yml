@@ -1,0 +1,46 @@
+flexslider:
+  remote: https://woocommerce.com/flexslider/
+  license:
+    name: GNU General Public License v2.0
+    url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+    gpl-compatible: true
+  js:
+    js/flexslider/jquery.flexslider-min.js: { minified: true }
+  css:
+    component:
+      js/flexslider/flexslider.css: {}
+
+jquery.ui:
+  remote: https://jqueryui.com/
+  license:
+    name: MIT License
+    url: https://tldrlegal.com/license/mit-license
+    gpl-compatible: true
+  js:
+    //ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js: { type: external, minified: true }
+  css:
+    component:
+      css/jquery-ui-1.12.1/jquery-ui.min.css: { minified: true }
+
+beo.routines:
+  remote: https://gist.github.com/efann
+  license:
+    name: Eclipse Public License
+    url: https://opensource.org/licenses/EPL-1.0
+    gpl-compatible: true
+  js:
+    js/beo.routines/beo.routines.js: {}
+
+global-loading:
+  header: true
+  css:
+    theme:
+       css/style.css: {}
+  js:
+    js/routines.js: {}
+
+  dependencies:
+    - core/jquery
+    - bstrap_child/jquery.ui
+    - bstrap_child/flexslider
+    - bstrap_child/beo.routines

@@ -1,0 +1,7 @@
+custom.content:
+  path: '/custom'
+  defaults:
+    _controller: '\Drupal\custom\Controller\CustomController::content'
+    _title: 'Peter Bouteneff | Testing'
+  requirements:
+    _permission: 'access content'

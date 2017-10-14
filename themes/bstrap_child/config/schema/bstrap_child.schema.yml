@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the BStrap Child theme.
+
+bstrap_child.settings:
+  type: theme_settings
+  label: 'BStrap Child settings'

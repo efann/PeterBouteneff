@@ -1,0 +1,6 @@
+custom.admin:
+  title: 'Custom module settings'
+  description: 'Custom admin settings page link'
+  parent: system.admin_config_development
+  route_name: custom.content
+  weight: 100

@@ -1,0 +1,9 @@
+name: Custom Module
+description: Creates a page based on parameter. Also includes a Publishers block for Content Writing.
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+dependencies:
+- node
+- block

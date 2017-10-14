@@ -1,0 +1,501 @@
+body, caption, th, td, input, textarea, select, option, legend, fieldset,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+  background-color: white;
+  color: #333333;
+}
+
+a, a:link, a:visited
+{
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0063A0;
+}
+
+a:active, a:hover
+{
+  text-decoration: underline;
+}
+
+hr
+{
+  border: solid 1px #CCCCCC;
+  margin: 20px 0;
+}
+
+body.navbar-is-fixed-top
+{
+  margin-top: 155px;
+}
+
+.navbar-header
+{
+  clear: both;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.main-container
+{
+  overflow: hidden;
+  min-height: 625px;
+}
+
+.row .region-header h1
+{
+  display: none;
+}
+
+.page-node-type-content-writing .row .region-header h1
+{
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: 2.2em;
+}
+
+#block-header img.header-image,
+#block-footer img.header-image
+{
+  width: 115px;
+  height: auto;
+}
+
+header,
+header .container,
+.navbar-inverse,
+.main-container,
+.ui-tabs .ui-tabs-panel,
+.ui-widget-content,
+footer
+{
+  background-color: #FBFBF8;
+  background-image: none;
+}
+
+.footer
+{
+  margin-top: 0;
+  border: none;
+}
+
+.footer .logo-image
+{
+  max-height: 50px;
+  width: auto;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*
+  jQuery UI Tabs
+*/
+
+.ui-widget-header
+{
+  border: none;
+  background: none;
+}
+
+.ui-widget.ui-widget-content
+{
+  border: none;
+  overflow: hidden;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor
+{
+  font-size: 0.875em;
+}
+
+/*
+  Bootstrap uses min-width: 768px settings,
+  so max-width: 767px works in concert
+*/
+
+@media (max-width: 767px)
+{
+
+  #pb_custom_text_tabs
+  {
+    width: 55em;
+  }
+
+  #pb_custom_text_tabs .ui-tabs-nav
+  {
+    padding: .2em .1em .2em .2em;
+    float: left;
+    width: 12em;
+  }
+
+  #pb_custom_text_tabs .ui-tabs-nav li
+  {
+    clear: left;
+    width: 100%;
+    border-bottom-width: 1px !important;
+    border-right-width: 0 !important;
+    margin: 1px;
+  }
+
+  #pb_custom_text_tabs .ui-tabs-nav li a
+  {
+    display: block;
+    width: 100%;
+  }
+
+  #pb_custom_text_tabs .ui-tabs-nav li.ui-tabs-active
+  {
+    padding-bottom: 0;
+    padding-right: .1em;
+    border-right-width: 1px;
+  }
+
+  #pb_custom_text_tabs .ui-tabs-panel
+  {
+    padding: 1em;
+    float: right;
+  }
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*
+  Flexslider
+*/
+
+.flexslider
+{
+  margin: 0;
+  background-color: #FBFBF8;
+  border: none;
+}
+
+.flexslider .slides img
+{
+  width: auto;
+  display: inline-block;
+}
+
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next
+{
+  height: auto;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*
+  Menu items.
+*/
+
+.navbar-toggle
+{
+  background-color: #62453D;
+  position: fixed;
+  top: 10px;
+  right: 15px;
+}
+
+/*
+  Brilliant. . . .
+  From https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/
+  Make sure that you add the classes to system/page.html.twig
+*/
+.navbar-toggle .icon-bar
+{
+  width: 22px;
+  transition: all 0.2s;
+}
+
+.navbar-toggle .top-bar
+{
+  -webkit-transform: translateX(3px) rotate(45deg);
+  -moz-transform: translateX(3px) rotate(45deg);
+  -o-transform: translateX(3px) rotate(45deg);
+
+  transform: translateX(3px) rotate(45deg);
+
+  -webkit-transform-origin: 10% 10%;
+  -moz-transform-origin: 10% 10%;
+  -o-transform-origin: 10% 10%;
+
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar
+{
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar
+{
+  -webkit-transform: translateX(3px) rotate(-45deg);
+  -moz-transform: translateX(3px) rotate(-45deg);
+  -o-transform: rotate(-45deg);
+
+  transform: translateX(3px) rotate(-45deg);
+
+  -webkit-transform-origin: 10% 90%;
+  -moz-transform-origin: 10% 90%;
+  -o-transform-origin: 10% 90%;
+
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar
+{
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -o-transform: rotate(0);
+
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar
+{
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar
+{
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -o-transform: rotate(0);
+
+  transform: rotate(0);
+}
+
+/*
+  Bootstrap uses min-width: 768px settings,
+  so max-width: 767px works in concert
+*/
+@media (max-width: 767px)
+{
+  div.navbar-collapse
+  {
+    position: fixed;
+    width: 150px;
+    top: 53px;
+    right: 44px;
+    padding: 0 10px;
+    overflow: hidden;
+
+    border: 1px solid #333333;
+    background-color: #FBFBF8;
+  }
+
+  div.navbar-collapse ul li
+  {
+    float: none;
+    width: 100%;
+  }
+
+}
+
+.navbar-inverse .navbar-nav > li > a
+{
+  color: #62453D;
+  font-weight: normal;
+  font-size: 1.25em;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus
+{
+  color: #0063A0;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+  color: #62453D;
+  background-color: lightgray;
+}
+
+/*
+  From https://bootstrapstudio.io/forums/topic/center-navbar/
+  Centering the navbar.
+*/
+@media (min-width: 768px)
+{
+  .navbar .navbar-nav
+  {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse
+  {
+    text-align: center;
+  }
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*
+  From https://stackoverflow.com/questions/20751316/how-to-make-div-to-match-image-height-with-css
+  Otherwise, the <a></a> will not stretch to fit the image.
+*/
+.dialogbox-image
+{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+}
+
+a.dialogbox-image img
+{
+  opacity: 1.0;
+  -moz-transition: opacity 0.25s ease;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+a.dialogbox-image img:hover
+{
+  opacity: 0.75;
+  -moz-transition: opacity 0.25s ease;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+#contact-message-feedback-form label
+{
+  display: none;
+}
+
+#pb_contact_form
+{
+  overflow: hidden;
+}
+
+.field--name-field-image,
+#pb_custom_text_list,
+#pb_custom_text_tabs,
+#pb_custom_book_carousel,
+#pb_custom_image
+{
+  overflow: hidden;
+  display: none;
+  clear: both;
+  width: 100%;
+}
+
+#pb_list .title
+{
+  padding-bottom: 15px;
+  font-style: italic;
+}
+
+#pb_custom_quotes
+{
+  overflow: hidden;
+  display: block;
+}
+
+#pb_custom_quotes .pb_quote_row
+{
+  display: none;
+  overflow: hidden;
+  font-style: italic;
+  font-size: 0.875em;
+  padding: 0 35px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*
+  From https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block
+  I'm modifying .img-responsive from Bootstrap. I need to use inline-block.
+*/
+.responsive-image-small,
+.responsive-image-regular,
+.responsive-image-large
+{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive-image-small
+{
+  max-height: 240px;
+}
+
+.responsive-image-regular
+{
+  max-height: 350px;
+}
+
+.responsive-image-large
+{
+  max-height: 480px;
+}
+
+/*
+  Bootstrap uses min-width: 768px settings,
+  so max-width: 767px works in concert
+*/
+@media (max-width: 767px)
+{
+  .responsive-image-small
+  {
+    max-height: 175px;
+  }
+
+  .responsive-image-regular
+  {
+    max-height: 285px;
+  }
+
+  .responsive-image-large
+  {
+    max-height: 415px;
+  }
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*
+  reCAPTCHA settings
+*/
+
+#block-contactblock #edit-actions
+{
+  padding-top: 15px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*
+  jQuery UI
+*/
+
+.ui-dialog
+{
+  z-index: 99999;
+}
+
+.ui-dialog .ui-dialog-titlebar
+{
+  padding: 0.1em 1.0em;
+}
+
+.ui-dialog .ui-dialog-content
+{
+  padding: 0;
+}
+
+.ui-corner-all
+{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/*----------------------------------------------------------------------------------------*/

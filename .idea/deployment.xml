@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="PeterBouteneff" compareModeInSync="TIMESTAMP">
+    <serverData>
+      <paths name="PeterBouteneff">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/peterbouteneff.com/public_html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/core" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/profiles" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/vendor" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/.csslintrc" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/.editorconfig" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/.eslintignore" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/.eslintrc.json" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/.gitattributes" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/.htaccess" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/autoload.php" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/composer.json" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/composer.lock" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/example.gitignore" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/index.php" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/LICENSE.txt" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/README.txt" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/robots.txt" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/update.php" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/web.config" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/admin_toolbar" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/autologout" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/ctools" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/login_emailusername" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/pathauto" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/token" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/weight" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites/development.services.yml" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites/example.settings.local.php" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites/example.sites.php" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites/README.txt" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites/default/default.services.yml" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites/default/default.settings.php" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites/default/settings.php" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites/default/files" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/README.txt" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/themes/adminimal_theme" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/themes/README.txt" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/themes/bootstrap" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/devel" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/linkit" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/imce" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/themes/bstrap_child/js/flexslider" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/contact_block" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/custom/publishers" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/themes/bstrap_child/css/jquery-ui-1.12.1" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/captcha" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/recaptcha" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+custom.content:
+  # More information on parameters:
+  # https://www.drupal.org/node/2186285
+  path: '/custom/{tcCustomCategory}'
+  defaults:
+    _controller: '\Drupal\custom\Controller\CustomController::getContent'
+    _title_callback: '\Drupal\custom\Controller\CustomController::getTitle'
+    # For the breadcrumb block which I am disabling. However, if you don't
+    # have the default value, then the site crashes.
+    # Uncaught PHP Exception Symfony\\Component\\Routing\\Exception\\MissingMandatoryParametersException:
+    # "Some mandatory parameters are missing ("tcCustomCategory") to generate a URL for route "custom.content"."
+    # at /var/www/peterbouteneff.com/public_html/core/lib/Drupal/Core/Routing/UrlGenerator.php line 180
+    tcCustomCategory: '/'
+  requirements:
+    _permission: 'access content'
+    # Only allow alpha, digits, underlines & dashes.
+    tcCustomCategory: ^[a-zA-Z0-9_-]+
