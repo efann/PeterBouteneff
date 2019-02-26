@@ -4,19 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="PHP" type="php">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../drupal-8.3.3/core" />
-          <root url="file://$MODULE_DIR$/../drupal-8.3.3/modules" />
-          <root url="file://$MODULE_DIR$/../drupal-8.3.3/vendor" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../drupal-8.3.3/core" />
-          <root url="file://$MODULE_DIR$/../drupal-8.3.3/modules" />
-          <root url="file://$MODULE_DIR$/../drupal-8.3.3/vendor" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>

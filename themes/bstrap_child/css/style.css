@@ -2,6 +2,7 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset,
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
 }
 
 body
@@ -58,6 +59,11 @@ body.navbar-is-fixed-top
   text-align: center;
   font-style: italic;
   font-size: 2.2em;
+}
+
+.form-control
+{
+  font-size: 1.0em;
 }
 
 #block-header img.header-image,
@@ -468,6 +474,11 @@ a.dialogbox-image img:hover
 #block-contactblock #edit-actions
 {
   padding-top: 15px;
+}
+
+#block-contactblock .panel-heading
+{
+  display: none;
 }
 
 /*----------------------------------------------------------------------------------------*/
