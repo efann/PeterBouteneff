@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867037b7-cb46-427c-8c30-d9e65bea6cfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PeterBouteneff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PeterBouteneff.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bstrap_child/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bstrap_child/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +11,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="DrupalConfiguration" enabled="true" version="8">
     <drupalPath>D:\PhpStorm\drupal-8.3.3</drupalPath>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,48 +71,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/themes/bstrap_child/bstrap_child.info.yml" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/bstrap_child.routing.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/custom.links.menu.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/custom.routing.yml" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/css/fred.html" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/fred.html" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/templates/node/node.html.twig" />
-        <option value="$PROJECT_DIR$/modules/custom/publisher/publisher.info.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/publisher/publisher.module" />
-        <option value="$PROJECT_DIR$/modules/custom/publisher/src/Plugin/Block/PublisherBlock.php" />
-        <option value="$PROJECT_DIR$/modules/custom/publishers/src/Plugin/Block/PublisherBlock.php" />
-        <option value="$PROJECT_DIR$/modules/custom/publishers/publishers.info.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/publishers/src/Plugin/Block/PublishersBlock.php" />
-        <option value="$PROJECT_DIR$/modules/custom/custom.info.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/src/Plugin/Block/PublishersBlock.php" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/templates/menu/menu--custom-main-menu.html.twig" />
-        <option value="$PROJECT_DIR$/modules/custom/src/Controller/CustomController.php" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/templates/time.html" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/fred.php" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/templates/system/page.html.twig" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/bstrap_child.libraries.yml" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/templates/system/html.html.twig" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/js/routines.js" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/templates/field/field.html.twig" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/templates/field/field--field-image.html.twig" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/js/beo.routines/beo.routines.js" />
-        <option value="$PROJECT_DIR$/themes/bstrap_child/css/style.css" />
-      </list>
-    </option>
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="PhpServers">
-    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,139 +85,8 @@
       <path value="$PROJECT_DIR$/../drupal-8.3.3/vendor" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
-  </component>
+  <component name="ProjectId" id="1PNDXJr8DbhcXMxn2RwAVFSpCpH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="modules" type="cbb8eebc:String" user="modules" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="modules" type="cbb8eebc:String" user="modules" />
-              <item name="custom" type="cbb8eebc:String" user="custom" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="modules" type="cbb8eebc:String" user="modules" />
-              <item name="custom" type="cbb8eebc:String" user="custom" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="modules" type="cbb8eebc:String" user="modules" />
-              <item name="custom" type="cbb8eebc:String" user="custom" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="Controller" type="cbb8eebc:String" user="Controller" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="bstrap_child" type="cbb8eebc:String" user="bstrap_child" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="bstrap_child" type="cbb8eebc:String" user="bstrap_child" />
-              <item name="css" type="cbb8eebc:String" user="css" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="bstrap_child" type="cbb8eebc:String" user="bstrap_child" />
-              <item name="js" type="cbb8eebc:String" user="js" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="PeterBouteneff" type="cbb8eebc:String" user="PeterBouteneff" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="bstrap_child" type="cbb8eebc:String" user="bstrap_child" />
-              <item name="js" type="cbb8eebc:String" user="js" />
-              <item name="beo.routines" type="cbb8eebc:String" user="beo.routines" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PeterBouteneff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeterBouteneff" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeterBouteneff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeterBouteneff" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeterBouteneff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeterBouteneff" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeterBouteneff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeterBouteneff" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bstrap_child" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeterBouteneff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeterBouteneff" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bstrap_child" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeterBouteneff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeterBouteneff" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bstrap_child" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeterBouteneff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeterBouteneff" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bstrap_child" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="beo.routines" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -263,6 +96,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -374,11 +213,11 @@
       <workItem from="1531771172030" duration="668000" />
       <workItem from="1531772220770" duration="52000" />
       <workItem from="1551201505385" duration="629000" />
+      <workItem from="1565705699477" duration="2751000" />
+      <workItem from="1565710990178" duration="1499000" />
+      <workItem from="1565726878342" duration="7000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,149 +228,20 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3001066" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49791667" weight="0.29888552" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50208336" side_tool="true" weight="0.28600407" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="File Transfer" order="10" visible="true" weight="0.29491174" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.24253732" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/css/fred.html" />
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/fred.html" />
-    <entry file="file://$PROJECT_DIR$/modules/custom/publishers/publishers.module" />
-    <entry file="file://$PROJECT_DIR$/modules/custom/publishers/publishers.info.yml" />
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/templates/node/node.html.twig" />
-    <entry file="file://$PROJECT_DIR$/../drupal-8.3.3/core/lib/Drupal/Core/Block/BlockBase.php" />
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/templates/menu/menu--custom-main-menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/templates/time.html" />
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/fred.php" />
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/bstrap_child.theme">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/bstrap_child.info.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/templates/system/page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="82" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/templates/system/html.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/templates/field/field--field-image.html.twig" />
-    <entry file="file://$PROJECT_DIR$/modules/custom/src/Controller/CustomController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="141" column="69" selection-start-line="141" selection-start-column="67" selection-end-line="141" selection-end-column="69" />
-          <folding>
-            <element signature="e#45#77#0#PHP" expanded="true" />
-            <marker date="1499720703013" expanded="true" signature="9618:9637" ph="..." />
-            <marker date="1499720703013" expanded="true" signature="10291:10310" ph="..." />
-            <marker date="1499720703013" expanded="true" signature="10838:10845" ph="..." />
-            <marker date="1499720703013" expanded="true" signature="10842:10845" ph="..." />
-            <marker date="1499720703013" expanded="true" signature="11432:11451" ph="..." />
-            <marker date="1499720703013" expanded="true" signature="11452:11459" ph="..." />
-            <marker date="1499720703013" expanded="true" signature="11452:11476" ph="..." />
-            <marker date="1499720703013" expanded="true" signature="11457:11459" ph="..." />
-            <marker date="1499720703013" expanded="true" signature="13445:13462" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/js/beo.routines/beo.routines.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6426">
-          <caret line="381" column="102" selection-start-line="381" selection-start-column="102" selection-end-line="381" selection-end-column="102" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1506526782932" expanded="true" signature="11201:11215" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/bstrap_child.routing.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/bstrap_child.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" selection-start-line="44" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/custom.links.menu.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/custom.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/src/Plugin/Block/PublishersBlock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/js/routines.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/custom.routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bstrap_child/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

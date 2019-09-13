@@ -56,6 +56,8 @@
             <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/captcha" />
             <excludedPath path="/var/www/peterbouteneff.com/public_html/modules/recaptcha" />
             <excludedPath local="true" path="$PROJECT_DIR$/.gitignore" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/sites" />
+            <excludedPath path="/var/www/peterbouteneff.com/public_html/.ht.router.php" />
           </excludedPaths>
         </serverdata>
       </paths>
