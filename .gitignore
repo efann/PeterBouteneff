@@ -56,3 +56,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.idea/deployment.xml
+.idea/deployment.xml
+.idea/webServers.xml
+.idea/deployment.xml
+.idea/workspace.xml
