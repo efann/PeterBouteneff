@@ -28,11 +28,14 @@ beo.routines:
     name: Eclipse Public License
     url: https://opensource.org/licenses/EPL-1.0
     gpl-compatible: true
+  header: true
   js:
     js/beo.routines/beo.routines.js: {}
+  dependencies:
+    - core/jquery
+    - bstrap_child/jquery.ui
 
 global-loading:
-  header: true
   css:
     theme:
        css/style.css: {}
@@ -40,7 +43,5 @@ global-loading:
     js/routines.js: {}
 
   dependencies:
-    - core/jquery
-    - bstrap_child/jquery.ui
     - bstrap_child/flexslider
     - bstrap_child/beo.routines
